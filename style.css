@@ -1,0 +1,43 @@
+body{
+background-color: rgb(191, 191, 218);
+font-family: 'Times New Roman', Times, serif;   
+}
+.Todo-container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+#task{
+    background-color: rgb(221, 221, 235);
+    width: 25%;
+    height: 30px;
+}
+.add-task{
+    color: white;
+    background-color: rgb(81, 81, 233);
+    padding: 5px 10px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    box-shadow: blue;
+}
+ul{
+    padding: 0px;
+}
+h1{
+    color: rgb(51, 51, 240);
+}
+.completed{
+color: gray;
+ text-decoration: line-through;
+}
+.done{
+   background-color: green;
+}
+.undo{
+    background-color: blue;
+}
+.delete{
+    background-color: red;
+}
